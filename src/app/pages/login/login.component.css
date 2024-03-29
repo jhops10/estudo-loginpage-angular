@@ -25,56 +25,6 @@
   width: 400px;
 }
 
-.form-header {
-  width: 100%;
-  margin-bottom: 40px;
-}
-.form-header p {
-  font-size: 20px;
-}
-
-.form-header h2 {
-  font-size: 32px;
-}
-
-.form-body form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.form-body form input {
-  background-color: #f7fafc;
-  padding: 1rem;
-  border: 1px solid #e8e8e8;
-  color: #656769;
-  margin-bottom: 5px;
-  outline: none;
-}
-
-.form-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 1rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-.form-footer a {
-  text-decoration: none;
-  color: #1e9e6a;
-  font-weight: 600;
-}
-
-.remember-me {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
 .form-buttons {
   display: flex;
   flex-direction: column;

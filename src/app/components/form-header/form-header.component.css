@@ -1,0 +1,11 @@
+.form-header {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.form-header p {
+  font-size: 20px;
+}
+
+.form-header h2 {
+  font-size: 32px;
+}

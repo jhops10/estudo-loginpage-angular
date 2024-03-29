@@ -1,0 +1,22 @@
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-footer a {
+  text-decoration: none;
+  color: #1e9e6a;
+  font-weight: 600;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}

@@ -1,29 +1,26 @@
 <section class="main-container">
   <div class="left-container">
     <div class="main-img">
-      <img src="assets/imgs/logo.png" alt="Logo" />
+      <app-main-img altText="Main Logo"></app-main-img>
     </div>
   </div>
   <div class="right-container">
     <div class="login-form-container">
-      <div class="form-header">
-        <p>Bem-vindo de volta</p>
-        <h2>Faça login na sua conta</h2>
-      </div>
-
+      <app-form-header></app-form-header>
       <div class="form-body">
         <form>
-          <label for="email">E-mail</label>
-          <input type="email" placeholder="exemplo@gmail.com" />
-          <label for="senha">Senha</label>
-          <input type="password" placeholder="0123456789" />
-          <div class="form-footer">
-            <div class="remember-me">
-              <input type="checkbox" />
-              <p>Lembre de mim</p>
-            </div>
-            <a routerLink="">Esqueceu sua senha?</a>
-          </div>
+          <app-form-input
+            labelText="E-mail"
+            inputType="email"
+            inputPlaceholder="exemplo@gmail.com"
+          ></app-form-input>
+          <app-form-input
+            labelText="Senha"
+            inputType="password"
+            inputPlaceholder="0123456789"
+          ></app-form-input>
+          <!-- form footer -->
+          <app-form-footer></app-form-footer>
           <div class="form-buttons">
             <button>Entrar na Conta</button>
             <button class="google_login-button">
