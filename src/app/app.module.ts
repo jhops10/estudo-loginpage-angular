@@ -8,6 +8,8 @@ import { MainImgComponent } from './components/main-img/main-img.component';
 import { FormHeaderComponent } from './components/form-header/form-header.component';
 import { FormInputComponent } from './components/form-input/form-input.component';
 import { FormFooterComponent } from './components/form-footer/form-footer.component';
+import { GreenButtonComponent } from './components/green-button/green-button.component';
+import { GoogleButtonComponent } from './components/google-button/google-button.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FormFooterComponent } from './components/form-footer/form-footer.compon
     MainImgComponent,
     FormHeaderComponent,
     FormInputComponent,
-    FormFooterComponent
+    FormFooterComponent,
+    GreenButtonComponent,
+    GoogleButtonComponent
   ],
   imports: [
     BrowserModule,

@@ -1,14 +1,19 @@
 <section class="main-container">
   <div class="left-container">
     <div class="main-img">
+      <!-- main img -->
       <app-main-img altText="Main Logo"></app-main-img>
+      <!-- main img -->
     </div>
   </div>
   <div class="right-container">
     <div class="login-form-container">
+      <!-- form header -->
       <app-form-header></app-form-header>
+      <!-- form header -->
       <div class="form-body">
         <form>
+          <!-- form input -->
           <app-form-input
             labelText="E-mail"
             inputType="email"
@@ -19,14 +24,19 @@
             inputType="password"
             inputPlaceholder="0123456789"
           ></app-form-input>
+          <!-- form input -->
           <!-- form footer -->
           <app-form-footer></app-form-footer>
+          <!-- form footer -->
           <div class="form-buttons">
-            <button>Entrar na Conta</button>
-            <button class="google_login-button">
-              <img src="assets/imgs/google-icon.png" alt="" />
-              Ou faça login com o Google
-            </button>
+            <!-- green button -->
+            <app-green-button textButton="Entrar na Conta"></app-green-button>
+            <!-- green button -->
+            <!-- google button -->
+            <app-google-button
+              textButton="Ou faça login com o Google"
+            ></app-google-button>
+            <!-- google button -->
           </div>
           <div class="register-container">
             <p>Não tem uma conta?</p>
